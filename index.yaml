@@ -2,6 +2,23 @@ apiVersion: v1
 entries:
   rucio-daemons:
   - apiVersion: v1
+    created: "2021-06-29T16:47:03.70389627Z"
+    description: A Helm chart to deploy daemons for Rucio
+    digest: 14a46c44320a0636226602c2611b4554279d95e48dffbef3f6f3b9fddb5a2968
+    home: https://rucio.cern.ch/
+    keywords:
+    - data-management
+    - science
+    maintainers:
+    - email: thomas.beermann@cern.ch
+      name: Thomas Beermann
+    name: rucio-daemons
+    sources:
+    - https://github.com/rucio/rucio
+    urls:
+    - https://github.com/rcarpa/helm-charts/releases/download/rucio-daemons-1.2.9/rucio-daemons-1.2.9.tgz
+    version: 1.2.9
+  - apiVersion: v1
     created: "2021-06-28T14:49:52.680101667+02:00"
     description: A Helm chart to deploy daemons for Rucio
     digest: 5ce4c88983d2a144cd86dab1cfc81dbfb5a7d83c15542179c36b271f8337ccc8
@@ -438,6 +455,23 @@ entries:
     version: 0.1.0
   rucio-server:
   - apiVersion: v1
+    created: "2021-06-29T16:47:03.956365463Z"
+    description: A Helm chart to deploy servers for Rucio
+    digest: 8dc1a0619fdaac383c2005a648e4cb7884d8fe2bf8c5165d225ad056f1eac0f8
+    home: https://rucio.cern.ch/
+    keywords:
+    - data-management
+    - science
+    maintainers:
+    - email: thomas.beermann@cern.ch
+      name: Thomas Beermann
+    name: rucio-server
+    sources:
+    - https://github.com/rucio/rucio
+    urls:
+    - https://github.com/rcarpa/helm-charts/releases/download/rucio-server-1.1.4/rucio-server-1.1.4.tgz
+    version: 1.1.4
+  - apiVersion: v1
     created: "2021-06-28T14:49:52.695717637+02:00"
     description: A Helm chart to deploy servers for Rucio
     digest: fff3a1bc96279d9d9f40681a93e2544e8e6d4435f83f56ec69ab5047419e42c6
@@ -863,4 +897,4 @@ entries:
     urls:
     - rucio-ui-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-28T14:49:52.649935801+02:00"
+generated: "2021-06-29T16:47:04.056667313Z"
